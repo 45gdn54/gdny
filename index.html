@@ -28,7 +28,7 @@
 		}
 		.diyiyekuang{
 			width: 680px;
-			margin-left: 30px;
+			margin-left: 0px;
 			margin-top: 0px;
 			background: #f8f8f8;
 			height: 610px;
@@ -111,28 +111,28 @@
 			width: 60px;
 			height: 58px;
 		}
-		.home{
+		.home a{
 			float: left;
 			margin-left: 20px;
 			margin-top:15px;
 			height: 20px;
 			width: 40px;
 		}
-		.works{
+		.works a{
 			float: left;
 			margin-left: 20px;
 			margin-top: 15px;
 			height: 20px;
 			width: 40px;
 		}
-		.geren{
+		.geren a{
 			float: left;
-			margin-left: 20px;
+			margin-right: 20px;
 			margin-top: 15px;
 			height: 20px;
 			width: 40px;
 		}
-		.about{
+		.about a{
 			float: left;
 			margin-left: 20px;
 			margin-top: 15px;
@@ -666,7 +666,7 @@
 </head>
 <body>
 	<div class="dakuang" >
-		<div class="diyiye">
+		<div class="diyiye" id="#home">
 			<div class="diyiyedakuang">
 				<div class="diyiyekuang">
 					<img src="tupian/san2.png" alt="" class="san2">
@@ -677,19 +677,21 @@
 					<img src="tupian/dian.png" alt="" class="dian">
 					<img src="tupian/dian2.png" alt="" class="dian2">
 					<div class="diyiyekuanger">
+						<ul class="daohang">
 						<img src="tupian/baiyang.png" alt="" class="baiyang">
-						<div class="home"><a href="#home"><img src="tupian/home.png" alt="" class="home"></a></div>
+						<div class="home"><a href="#home">首页</a>				
 						<img src="tupian/jinniu.png" alt="" class="jinniu">
-						<div class="works"><a href="#wroks"><img src="tupian/works.png" alt="" class="works"></a></div>
+						<div class="works"><a href="#works">作品</a>
 						<img src="tupian/shuangzi.png" alt="" class="shuangzi">
-						<img src="tupian/tec.png" alt="" class="geren">
+						<div class="tec"><a href="#tec">技能</a>
 						<img src="tupian/juxie.png" alt="" class="juxie">
-						<img src="tupian/about.png" alt="" class="about">
+						<div class="about"><a href="#about">关于</a>
+					</ul>
 					</div>
 				</div>	
 			</div>
 		</div>
-		<div class="dierye" id="home">
+		<div class="dierye" id="works">
 		  <div class="fenjie">
 		  	<img src="tupian/xian2.png" alt="" class="xian">
 		  	<img src="tupian/zjb.png" alt="" class="zjb">
@@ -719,8 +721,8 @@
 		  	<img src="tupian/shuju2.png" alt="" class="shuju2">
 		  	<img src="tupian/shuju3.png" alt="" class="shuju3">
 		  </div>
-		</div class="dierye" id="about">
-		<div class="disanye">
+		</div class="dierye">
+		<div class="disanye" id="tec">
 			<div class="disanyekuang">
 				<img src="tupian/lxian3.png" alt="" class="lxian3">
 				<img src="tupian/fang4.png" alt="" class="fang3">
@@ -753,7 +755,7 @@
 				<img src="tupian/tz.png" alt="" class="tz">
 			</div>
 		</div>
-		<div class="disiye">
+		<div class="disiye" id="about">
 		  <div class="fenjieer">
 		  	<img src="tupian/xian3.png" alt="" class="xian3">
 		  	<img src="tupian/zjb2.png" alt="" class="zjb2">
